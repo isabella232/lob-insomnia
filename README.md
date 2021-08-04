@@ -13,7 +13,7 @@ Visit Insomnia and download the desktop client.
 
 ---
 
-### 2. Get your API keys
+### 2. Sign up for a Lob account
 
 Create an account at [Lob.com](https://dashboard.lob.com/#/register)
 
@@ -45,8 +45,11 @@ Paste your Lob Test API key into your Insomnia desktop client and click Done.
 
 
 ---
-### 7. Refresh token for continued access
-You can continually visit the `Authentication` route to refresh a token by clicking `Refresh Token`.
+### 5. Start exploring Lob APIs
+
+A good place to start it to `Create` one or more addresses and `List` the addresses.  Other endpoints will use the address id returned from the `List` operation.
+
+You might also want to `Create` one or more templates and `List` the templates prior to exploring Postcards and Self-mailers.
 
 ---
 
