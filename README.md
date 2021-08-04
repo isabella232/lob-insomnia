@@ -31,7 +31,7 @@ You'll use the test_*. for your Test API key and live_*. for your Live API key.
 
 ---
 
-### 4. Add your Test API key `test_b545XXXXXXXXXXXXXXd8b` to the environment variables in Insomnia
+### 4. Add your Test API key to the environment in Insomnia
 
 Get the test API key from [Settings](https://dashboard.lob.com/#/settings/account) in Lob.
 
@@ -39,7 +39,7 @@ Go to the environment dropdown in Insomnia desktop and select `Manage Environmen
 
 ![manage environment](images/manage-environment.png)
 
-Paste your Lob Test API key into your Insomnia desktop client and click Done.
+Paste your Lob Test API key as the value for `httpUsername` in your OpenAPI env and click Done.
 
 ![paste API keys in environment](images/set-api-keys-in-enviroment.png)
 
@@ -49,16 +49,16 @@ Paste your Lob Test API key into your Insomnia desktop client and click Done.
 
 A good place to start it to `Create` one or more addresses and `List` the addresses.  Other endpoints will use the address id returned from the `List` operation.
 
-You might also want to `Create` one or more templates and `List` the templates prior to exploring Postcards and Self-mailers.
+You'll also want to `Create` one or more templates and `List` the templates prior to exploring Postcards and Self-mailers.
 
 ---
 
-**IMPORTANT**
+**Coming Soon**
 
-You will need to copy/paste your refreshed `access_token` into the env variables section each time you refresh your token_set.
+Watch this space
 
-_~13 min video tutorial on setting up Insomnia_
-> https://www.youtube.com/watch?v=H_k8Z8Zq99s
+_Video tutorial on setting up Insomnia_
+> coming soon
 
 _Blogpost on setting up Insomnia_
-> https://devblog.xero.com/insomnia-client-xeroapi-auth-1c4cf485f251
+> coming soon
