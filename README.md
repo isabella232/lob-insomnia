@@ -26,7 +26,7 @@ You'll use the test_*. for your Test API key and live_*. for your Live API key.
 
 ## 3. Import the Lob Insomnia collection
 
-[![Import into Insomnia (Lob collection)}](https://insomnia.rest/images/run.svg)](https://insomnia.rest/run/?label=Insomnia%20(Basic)&uri=https%3A%2F%2Fraw.githubusercontent.com%2FSerKnight%2FXero-Insomnia%2Fmaster%2FInsomnia_basic.json)
+[![Import into Insomnia (Lob collection)}](https://insomnia.rest/images/run.svg)](https://insomnia.rest/run/?label=Insomnia%20(Basic)&uri=https%3A%2F%2Fraw.githubusercontent.com%2FSidneyAllen%2Flob-insomnia%2Fmain%2Flob-insomnia-1.0.0.json)
 
 
 ---
