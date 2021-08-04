@@ -31,44 +31,18 @@ You'll use the test_*. for your Test API key and live_*. for your Live API key.
 
 ---
 
-### 4. Add `client_id`, `client_secret` and `scopes` to the environment variables in Insomnia
-Get the id & secret from your /myapps API app.
+### 4. Add your Test API key `test_b545XXXXXXXXXXXXXXd8b` to the environment variables in Insomnia
 
-Understand & pick your XeroAPI scopes.
-> https://developer.xero.com/documentation/oauth2/scopes
+Get the test API key from [Settings](https://dashboard.lob.com/#/settings/account) in Lob.
 
-> At a minimun you probably want to add `"openid profile email offline_access accounting.transactions"` - and if you chose the **Full Collection** you will have to add (_basically_) all the scope to interact with all the imported endpoints.
+Go to the environment dropdown in Insomnia desktop and select `Manage Environments`.
 
-Finally, copy those 3 items into this file in your desktop client.
+![manage environment](images/manage-environment.png)
 
-![paste in environment keys](images/env.png)
+Paste your Lob Test API key into your Insomnia desktop client and click Done.
 
----
+![paste API keys in environment](images/set-api-keys-in-enviroment.png)
 
-### 5. Authorize Xero and and get your access_token
-
-Click 'Fetch Tokens' which will prompt a Xero login screen.
-
-![xero-login](images/xero-login.png)
-
-Once you return it should populate the access & refresh token.
-
-You can now add an actual request to the Authorize OAuth2 panel to hit the /connections route via POST which will use the access_token to return your active connections.
-
-Once the /connection route is setup, click `Send`, this will return your active API connections. Chose a `tenantId` to populate in your environment file's empty `tenant_id` value.
-
-![xero-login](images/post-auth.png)
-
-Then paste both the `tenant_id` & the `access_token` into the environment file.
-
-![access-token-paste](images/access-token.png)
-
----
-
-### 6. Paste the access_token back into your environment variables
-Once you have an `access_token` plugged in, you will be able to make API calls.
-
-![get-invoices](images/get-invoices.png)
 
 ---
 ### 7. Refresh token for continued access
