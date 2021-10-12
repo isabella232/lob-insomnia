@@ -26,7 +26,7 @@ Click on the API Keys tab. Look at your Secret and Publishable API Keys. You'll 
 
 ## 3. Import the Lob Insomnia collection
 
-[![Run in Insomnia}](https://insomnia.rest/images/run.svg)](https://insomnia.rest/run/?label=Lob%20Insomnia&uri=https%3A%2F%2Fraw.githubusercontent.com%2FSidneyAllen%2Flob-insomnia%2Fmain%2Flob-insomnia-1.0.0.json%3Ftoken%3DAAERP75JPF6KZIIBNLNJEPDBBMH46)
+[![Run in Insomnia}](https://insomnia.rest/images/run.svg)](https://insomnia.rest/run/?label=Lob%20Insomnia&uri=https%3A%2F%2Fraw.githubusercontent.com%2Flob%2Flob-insomnia%2Fmain%2Flob-insomnia-1.0.0.json)
 
 Click Create in the Insomnia app and choose file.
 
